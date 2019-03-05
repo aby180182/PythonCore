@@ -1,0 +1,5 @@
+number = input("enter a number, please (must be four digits): ")
+product = int(number[0]) * int(number[1]) * int(number[2]) * int(number[3])
+print(product)
+print(reversed(number))
+print(sorted(number))
